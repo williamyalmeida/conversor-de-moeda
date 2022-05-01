@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/variaveis.css">
+    <link rel="stylesheet" href="./src/css/conteudo-principal.css">
+</head>
+<body>
+    
+    <main class="conteudo-principal"> 
+
+        <header>
+            <h1>MS1 - Conversor de Moedas</h1>
+        </header>
+
+        <section class="conversao">
+
+            <p class="texto-fonte">Converter  <strong>de</strong> </p>
+            <select class="selecao-conversao">
+                <option>R$ <strong>Real Brasileiro</strong> </option>
+            </select>
+
+            <p class="texto-fonte">Converter <strong>para</strong></p>
+            <select class="selecao-conversao" id="selecao-moeda">
+                <option value="Dólar Americano">U$ <strong>Dólar Americano</strong></option>
+                <option value="Euro">€ <strong>Euro</strong></option>
+            </select>
+
+            <p class="texto-fonte">Valor</p>
+            <input  id="moeda-real-brasileiro"type="number" class="moeda-valor" placeholder="R$ 10.000,00">
+
+            <button id="botao-de-conversao">Converter</button>
+
+            <div class="bandeiras-de-conversao">
+
+                <div class="bandeira-moedas">
+                    <img src="src/img/bandeira-brasil.svg" alt="bandeira-brasileira">
+                    <p >Real</p>
+                    <span id="moeda-valor-do-real">R$ 10.000,00</span>
+                </div>
+
+                <img src="src/img/seta.svg" alt="seta com uma direção para baixo">
+
+                <div class="bandeira-moedas">
+                    <img src="src/img/bandeira-eua.svg" alt="aqui as bandeiras será alternada para eua e euro" id="bandeiras">
+                    <p>Dólar Americano</p>
+                    <span id="moedas-valores">R$ 10.000,00</span>
+                </div>
+
+
+
+
+
+
+            </div>
+
+
+        </section>
+
+    </main>
+
+
+    <script src="src/js/script.js"></script>
+</body>
+</html>

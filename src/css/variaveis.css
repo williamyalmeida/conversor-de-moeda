@@ -1,0 +1,13 @@
+:root {
+    --cor-de-fundo: #343A40; 
+    --cor-do-conteudo-principal: #F8F9FA;
+    --cabecalho-cor:#36DAF7;
+    --cor-do-texto:#F4F4F4;
+    --cor-do-texto-fonte:#adb5bd;
+    --destaque-texto:#343A40;
+    --selecao-cor: #FFFFFF;
+    --botao-conversao: #27ACD4 ,#86FCFB;
+    --cor-bota-conversor: #F4F4F4;
+    --cor-borda-conversao-moeda: #1B83B1;
+    
+}
