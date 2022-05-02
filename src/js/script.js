@@ -32,13 +32,17 @@ async function conversaoDeMoeda() {
 
 function trocarMoeda() {
     let bandeirasTrocar = document.querySelector('#bandeiras')
+    let textoDaMoedasTrocar = document.getElementById('moeda-texto')
     
     switch(trocarMoedaEmselecao.value) {
         case'Dólar Americano':
         bandeirasTrocar.setAttribute('src','src/img/bandeira-eua.svg')
+        textoDaMoedasTrocar.innerHTML = 'Dólar Americano'
         break
         case'Euro':
         bandeirasTrocar.setAttribute('src','src/img/bandeira-euro.svg')
+        textoDaMoedasTrocar.innerHTML = 'Euro'
+
         break
     }
 
